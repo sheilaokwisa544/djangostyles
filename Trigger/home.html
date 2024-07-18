@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>homepage</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'CSS/home.css' %}">
+     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+<h1>Trigger</h1>
+<!--use an anchor tag for the links-->
+<!--we use ginger symbol for navigation--->
+<a href="{% url 'contact' %}" class="btn btn-outline-primary">contact</a>
+
+<a href="{% url 'payment' %}" class="btn btn-outline-warning">payment</a>
+
+
+
+
+
+
+
+<p id="paragraph1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad alias, aut commodi cumque deserunt dignissimos
+    dolores dolorum eaque fugiat ipsum iste labore laboriosam laborum maxime minima modi natus numquam officia officiis
+    omnis quam quisquam reiciendis rem reprehenderit saepe sapiente sed totam voluptate voluptatem.
+    Aspernatur consequuntur ea enim obcaecati quisquam quo sequi? Adipisci eius eos eveniet mollitia
+    nihil nobis numquam perspiciatis quia veniam voluptate? Accusamus consequuntur delectus error iure molestiae nam
+    officiis quae quia repellendus sed, soluta, sunt velit, voluptates.</p>
+<img src="{% static 'resourses/comp1.jpeg' %}" alt="">
+<img src="{% static 'resourses/comp2.jpeg' %}" alt="">
+
+
+<p id="paragraph2" ><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto culpa deleniti facilis,
+    fugiat itaque minima nulla optio perferendis
+    quae quam saepe sed. Commodi debitis fuga incidunt iste officia voluptates.</span></p>
+
+<div class="main">
+    <div class="course1">
+        <h3>cybersecurity</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur cupiditate debitis in quisquam! Adipisci aliquid architecto distinctio eligendi expedita,
+            id illo impedit nam odit omnis porro, quae quis velit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus dignissimos distinctio id magnam minus, quae vero! Ab consequatur deserunt doloribus eius eligendi magnam neque nihil,
+            qui reiciendis ut vitae?</p>
+
+    </div>
+
+    <div class="course2">
+        <h3>data science</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus assumenda commodi culpa dolorem et eveniet exercitationem fugit impedit iste magnam molestiae molestias
+            nemo omnis optio provident, qui ullam unde voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequuntur, enim est fuga impedit iusto laboriosam minima molestiae optio porro quae, qui quod
+            quos repudiandae rerum vel velit! Facere, suscipit.</p>
+    </div>
+
+    <div class="course3">
+        <h3>web development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eos error excepturi inventore ipsam non officiis perspiciatis quasi quisquam tenetur.
+            Blanditiis dolorem earum eveniet quam quasi ratione rerum similique voluptate? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium alias aliquam asperiores cum dignissimos, dolore et facilis illo itaque iure magnam modi odio, praesentium quam rem
+            repellendus sequi soluta?</p>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>contact</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+
+</head>
+<body>
+<h1>Contact us</h1>
+<a href="{% url 'home'%}" class="btn btn-outline-primary">home</a>
+<a href="{% url 'payment' %}" class="btn btn-outline-warning">payment</a>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus blanditiis, culpa delectus eaque,
+    harum iste iure
+    nam nemo nobis possimus praesentium quae quas qui rem sapiente tempore, ullam ut.</p>
+
+<table class="table table-danger table-hover">
+    <tr>
+        <th>name</th>
+        <th>email</th>
+        <th>age</th>
+    </tr>
+    <tr>
+        <td>eila</td>
+        <td>eila@gamil.com</td>
+        <td>41</td>
+    </tr>
+    <tr>
+        <td>ila</td>
+        <td>ila@gamil.com</td>
+        <td>71</td>
+    </tr>
+    <tr>
+        <td>heila</td>
+        <td>heila@gamil.com</td>
+        <td>34</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
